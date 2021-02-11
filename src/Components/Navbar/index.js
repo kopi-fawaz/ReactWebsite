@@ -9,7 +9,7 @@ function Navbar() {
           <LogoText className="logo-text">Ultra Profile</LogoText>
         </Logo>
         <UlList className="ul-list">
-          <ListItem><Anchor to="/" >HOME</Anchor></ListItem>
+          <ListItem><Anchor to="/ReactWebsite" >HOME</Anchor></ListItem>
           <ListItem><Anchor to="Work" >Work</Anchor></ListItem>
           <ListItem><Anchor to="portfolio" >Portfolio</Anchor></ListItem>
           <ListItem><Anchor to="Profile" >Profile</Anchor></ListItem>
