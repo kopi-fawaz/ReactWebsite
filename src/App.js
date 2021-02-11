@@ -16,7 +16,7 @@ class App extends Component {
       <div className="App">
         <BrowserRouter>
           <Navbar />
-          <Route exact path="/" component={Index} />
+          <Route exact path="/ReactWebsite/" component={Index} />
           <Route path="/Contact" component={Contact} />
           <Route path="/Portfolio" component={Portfolio} />
           <Route path="/About" component={About} />
