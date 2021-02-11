@@ -17,11 +17,11 @@ class App extends Component {
         <BrowserRouter>
           <Navbar />
           <Route exact path="/ReactWebsite/" component={Index} />
-          <Route path="/Contact" component={Contact} />
-          <Route path="/Portfolio" component={Portfolio} />
-          <Route path="/About" component={About} />
-          <Route path="/Work" component={Work} />
-          <Route path="/Profile" component={Profile} />
+          <Route path="/ReactWebsite/Contact" component={Contact} />
+          <Route path="/ReactWebsite/Portfolio" component={Portfolio} />
+          <Route path="/ReactWebsite/About" component={About} />
+          <Route path="/ReactWebsite/Work" component={Work} />
+          <Route path="/ReactWebsite/Profile" component={Profile} />
         </BrowserRouter>
         <Footer />
       </div>
